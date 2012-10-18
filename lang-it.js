@@ -163,6 +163,7 @@
     Enjoy!
     -Jens
 */
+/*jslint sloppy: true, browser: true, indent: 4, maxlen: 78 */ // Directive
 
 /*global SnapTranslator*/
 
