@@ -238,7 +238,7 @@ SnapTranslator.dict.it = {
     'don\'t rotate':
         'non ruotare',
     'can rotate':
-        'pu\u00F2 ruotare',
+        'può ruotare',
     'only face left/right':
         'voltati solo a destra/sinistra',
 
@@ -308,11 +308,11 @@ SnapTranslator.dict.it = {
     'change x by %n':
         'cambia x di %n',
     'set x to %n':
-        'vai dove x \u00E8 %n',
+        'vai dove x è %n',
     'change y by %n':
         'cambia y di %n',
     'set y to %n':
-        'vai dove y \u00E8 %n',
+        'vai dove y è %n',
     'if on edge, bounce':
         'rimbalza quando tocchi il bordo',
     'x position':
@@ -381,7 +381,7 @@ SnapTranslator.dict.it = {
     'clear':
         'pulisci',
     'pen down':
-        'penna gi\u00F9',
+        'penna giù',
     'pen up':
         'penna su',
     'set pen color to %clr':
@@ -391,9 +391,9 @@ SnapTranslator.dict.it = {
     'set pen color to %n':
         'usa penna di colore %n',
     'change pen shade by %n':
-        'cambia luminosit\u00E0 penna di %n',
+        'cambia luminosità penna di %n',
     'set pen shade to %n':
-        'porta luminosit\u00E0 penna a %n',
+        'porta luminosità penna a %n',
     'change pen size by %n':
         'cambia dimensione penna di %n',
     'set pen size to %n':
@@ -449,7 +449,7 @@ SnapTranslator.dict.it = {
     'call %cmdRing w/continuation':
         'chiama %cmdRing con continuazione',
     'warp %c':
-        'esegui in modalit\u00E0 turbo %c',
+        'esegui in modalità turbo %c',
 
     // sensing:
     'touching %col ?':
@@ -522,7 +522,7 @@ SnapTranslator.dict.it = {
     'unicode %n as letter':
         'unicode %n come lettera',
     'is %s a %typ ?':
-        '%s \u00E8 di tipo %typ',
+        '%s è di tipo %typ',
 
     'type of %s':
         'tipo di %s',
@@ -853,7 +853,7 @@ SnapTranslator.dict.it = {
     'Default Value:':
         'Valore predefinito:',
     'Multiple inputs (value is list of inputs)':
-        'Molti valori (il valore \u00E8 una lista di argomenti)',
+        'Molti valori (il valore è una lista di argomenti)',
     'Upvar - make internal variable visible to caller':
         'Rendi il parametro visibile all\'esterno',
 
@@ -912,7 +912,7 @@ SnapTranslator.dict.it = {
     '(0) up':
         '(0) su',
     '(180) down':
-        '(180) gi\u00F9',
+        '(180) giù',
 
     // collision detection
     'mouse-pointer':
@@ -936,7 +936,7 @@ SnapTranslator.dict.it = {
     'up arrow':
         'freccia su',
     'down arrow':
-        'freccia gi\u00F9',
+        'freccia giù',
     'right arrow':
         'freccia destra',
     'left arrow':
