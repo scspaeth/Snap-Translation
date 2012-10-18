@@ -586,12 +586,12 @@ SnapTranslator.dict.it = {
         'Torna alla modalità utente',
     'disable deep-Morphic\ncontext menus\nand show user-friendly ones':
         'disabilita i menu contestuali\n'
-        	+ 'di Morphic e mostra quelli user-friendly',
+            + 'di Morphic e mostra quelli user-friendly',
     'Switch to dev mode':
         'Passa alla modalità sviluppo',
     'enable Morphic\ncontext menus\nand inspectors,\nnot user-friendly!':
         'Abilita i menu contestuali\n'
-        	+ 'di Morphic e l\'inspector,\n non user-friendly',
+            + 'di Morphic e l\'inspector,\n non user-friendly',
 
     // project menu
     'Project Notes...':
