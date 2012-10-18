@@ -585,11 +585,13 @@ SnapTranslator.dict.it = {
     'Switch back to user mode':
         'Torna alla modalità utente',
     'disable deep-Morphic\ncontext menus\nand show user-friendly ones':
-        'disabilita i menu contestuali\ndi Morphic e mostra quelli user-friendly',
+        'disabilita i menu contestuali\n'
+        	+ 'di Morphic e mostra quelli user-friendly',
     'Switch to dev mode':
         'Passa alla modalità sviluppo',
     'enable Morphic\ncontext menus\nand inspectors,\nnot user-friendly!':
-        'Abilita i menu contestuali\ndi Morphic e l\'inspector,\n non user-friendly',
+        'Abilita i menu contestuali\n'
+        	+ 'di Morphic e l\'inspector,\n non user-friendly',
 
     // project menu
     'Project Notes...':
@@ -613,11 +615,13 @@ SnapTranslator.dict.it = {
     'Export project...':
         'Esporta il progetto...',
     'show project data as XML\nin a new browser window':
-        'mostra i dati del progetto in formato XML\nin una nuova finestra del browser',
+        'mostra i dati del progetto in formato XML\n'
+        	+ 'in una nuova finestra del browser',
     'Export blocks ...':
         'Esporta blocchi...',
     'show global custom block definitions as XML\nin a new browser window':
-        'mostra in formato XML le definizione dei nuovi blocchi\nin una nuova finestra del browser',
+        'mostra in formato XML le definizione dei nuovi blocchi\n'
+        	+ 'in una nuova finestra del browser',
 
     // settings menu
     'Language...':
@@ -625,39 +629,50 @@ SnapTranslator.dict.it = {
     'Blurred shadows':
         'Ombreggiature attenuate',
     'uncheck to use solid drop\nshadows and highlights':
-        'disabilitare per visualizzare ombreggiature\ned evidenziature solide',
+        'disabilitare per visualizzare ombreggiature\n'
+        	+ 'ed evidenziature solide',
     'check to use blurred drop\nshadows and highlights':
-        'abilitare per visualizzare ombreggiature\ned evidenziature attenuate',
+        'abilitare per visualizzare ombreggiature\n'
+        	+ 'ed evidenziature attenuate',
     'Zebra coloring':
         'Colorazione alternata',
     'check to enable alternating\ncolors for nested blocks':
         'abilitare per visualizzare a colori\nalternati i blocchi annidati',
     'uncheck to disable alternating\ncolors for nested block':
-        'disabilitare per non visualizzare a colori\nalternati i blocchi annidati',
+        'disabilitare per non visualizzare a colori\n'
+        	+ 'alternati i blocchi annidati',
     'Prefer empty slot drops':
         'Favorisci l\'aggancio a slot vuoti',
     'settings menu prefer empty slots hint':
-        'abilitare per favorire l\'inserimento in slot vuoti\nquando si trascinano e rilasciano dei reporter',
+        'abilitare per favorire l\'inserimento in slot vuoti\n'
+        	+ 'quando si trascinano e rilasciano dei reporter',
     'uncheck to allow dropped\nreporters to kick out others':
-        'disabilitare per permettere agli slot di espellere\ni reporter inclusi al loro interno',
+        'disabilitare per permettere agli slot di espellere\n'
+        	+ 'i reporter inclusi al loro interno',
     'Long form input dialog':
         'Usa finestra degli input estesa',
     'check to always show slot\ntypes in the input dialog':
-        'abilitare per mostrare sempre i tipi degli slot\nnella finestra di creazione degli input',
+        'abilitare per mostrare sempre i tipi degli slot\n'
+        	+ 'nella finestra di creazione degli input',
     'uncheck to use the input\ndialog in short form':
-        'disabilitare per non mostrare automaticamente i tipi degli slot\nnella finestra di creazione degli input',
+        'disabilitare per non mostrare automaticamente i tipi degli slot\n'
+        	+ 'nella finestra di creazione degli input',
     'Virtual keyboard':
         'Tastiera virtuale',
     'uncheck to disable\nvirtual keyboard support\nfor mobile devices':
-        'disabilitare per non usare il supporto\ndella tastiera virtuale con i dispositivi mobili',
+        'disabilitare per non usare il supporto\n'
+        	+ 'della tastiera virtuale con i dispositivi mobili',
     'check to enable\nvirtual keyboard support\nfor mobile devices':
-        'abilitare per usare il supporto della\ntastiera virtuale con i dispositivi mobili',
+        'abilitare per usare il supporto della\n'
+        	+ 'tastiera virtuale con i dispositivi mobili',
     'Input sliders':
         'Usa slider per gli input',
     'uncheck to disable\ninput sliders for\nentry fields':
-        'disabilitare per non visualizzare gli slider\n per inserire valori numerici',
+        'disabilitare per non visualizzare gli slider\n'
+        	+ ' per inserire valori numerici',
     'check to enable\ninput sliders for\nentry fields':
-        'abilitare per visualizzare gli slider\n per inserire valori numerici',
+        'abilitare per visualizzare gli slider\n'
+        	+ ' per inserire valori numerici',
     'Clicking sound':
         'Click di aggancio dei blocchi',
     'uncheck to turn\nblock clicking\nsound off':
@@ -814,8 +829,8 @@ SnapTranslator.dict.it = {
     'Delete Custom Block':
         'Cancella Blocco',
     'block deletion dialog text':
-        'Sei sicuro di voler cancellare questo blocco\n' +
-            'e tutte le sue occorrenze?',
+        'Sei sicuro di voler cancellare questo blocco\n' 
+        	+ 'e tutte le sue occorrenze?',
 
     // input dialog
     'Create input name':
