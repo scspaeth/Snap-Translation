@@ -829,8 +829,8 @@ SnapTranslator.dict.it = {
     'Delete Custom Block':
         'Cancella Blocco',
     'block deletion dialog text':
-        'Sei sicuro di voler cancellare questo blocco\n' 
-        	+ 'e tutte le sue occorrenze?',
+        'Sei sicuro di voler cancellare questo blocco\n'
+            + 'e tutte le sue occorrenze?',
 
     // input dialog
     'Create input name':
