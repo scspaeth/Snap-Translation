@@ -2,7 +2,7 @@
 
 	lang-it.js
 
-	German translation for SNAP!
+	Italiano (it) translation for SNAP!
 
 	written by Jens Mönig
 
@@ -185,7 +185,7 @@ SnapTranslator.dict.it = {
     'translator_e-mail':
         's_federici@yahoo.com', // optional
     'last_changed':
-        '2012-10-16', // this, too, will appear in the Translators tab
+        '2012-10-18', // this, too, will appear in the Translators tab
 
     // GUI
     // control bar:
@@ -903,7 +903,7 @@ SnapTranslator.dict.it = {
     'add comment here...':
         'aggiunto un commento in questo punto...',
 
-    // drow downs
+    // drop downs
     // directions
     '(90) right':
         '(90) destra',
@@ -911,7 +911,7 @@ SnapTranslator.dict.it = {
         '(-90) sinistra',
     '(0) up':
         '(0) su',
-    '(180) right':
+    '(180) down':
         '(180) gi\u00F9',
 
     // collision detection
