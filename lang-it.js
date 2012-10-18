@@ -616,12 +616,12 @@ SnapTranslator.dict.it = {
         'Esporta il progetto...',
     'show project data as XML\nin a new browser window':
         'mostra i dati del progetto in formato XML\n'
-        	+ 'in una nuova finestra del browser',
+            + 'in una nuova finestra del browser',
     'Export blocks ...':
         'Esporta blocchi...',
     'show global custom block definitions as XML\nin a new browser window':
         'mostra in formato XML le definizione dei nuovi blocchi\n'
-        	+ 'in una nuova finestra del browser',
+            + 'in una nuova finestra del browser',
 
     // settings menu
     'Language...':
@@ -630,49 +630,49 @@ SnapTranslator.dict.it = {
         'Ombreggiature attenuate',
     'uncheck to use solid drop\nshadows and highlights':
         'disabilitare per visualizzare ombreggiature\n'
-        	+ 'ed evidenziature solide',
+            + 'ed evidenziature solide',
     'check to use blurred drop\nshadows and highlights':
         'abilitare per visualizzare ombreggiature\n'
-        	+ 'ed evidenziature attenuate',
+            + 'ed evidenziature attenuate',
     'Zebra coloring':
         'Colorazione alternata',
     'check to enable alternating\ncolors for nested blocks':
         'abilitare per visualizzare a colori\nalternati i blocchi annidati',
     'uncheck to disable alternating\ncolors for nested block':
         'disabilitare per non visualizzare a colori\n'
-        	+ 'alternati i blocchi annidati',
+            + 'alternati i blocchi annidati',
     'Prefer empty slot drops':
         'Favorisci l\'aggancio a slot vuoti',
     'settings menu prefer empty slots hint':
         'abilitare per favorire l\'inserimento in slot vuoti\n'
-        	+ 'quando si trascinano e rilasciano dei reporter',
+            + 'quando si trascinano e rilasciano dei reporter',
     'uncheck to allow dropped\nreporters to kick out others':
         'disabilitare per permettere agli slot di espellere\n'
-        	+ 'i reporter inclusi al loro interno',
+            + 'i reporter inclusi al loro interno',
     'Long form input dialog':
         'Usa finestra degli input estesa',
     'check to always show slot\ntypes in the input dialog':
         'abilitare per mostrare sempre i tipi degli slot\n'
-        	+ 'nella finestra di creazione degli input',
+            + 'nella finestra di creazione degli input',
     'uncheck to use the input\ndialog in short form':
         'disabilitare per non mostrare automaticamente i tipi degli slot\n'
-        	+ 'nella finestra di creazione degli input',
+            + 'nella finestra di creazione degli input',
     'Virtual keyboard':
         'Tastiera virtuale',
     'uncheck to disable\nvirtual keyboard support\nfor mobile devices':
         'disabilitare per non usare il supporto\n'
-        	+ 'della tastiera virtuale con i dispositivi mobili',
+            + 'della tastiera virtuale con i dispositivi mobili',
     'check to enable\nvirtual keyboard support\nfor mobile devices':
         'abilitare per usare il supporto della\n'
-        	+ 'tastiera virtuale con i dispositivi mobili',
+            + 'tastiera virtuale con i dispositivi mobili',
     'Input sliders':
         'Usa slider per gli input',
     'uncheck to disable\ninput sliders for\nentry fields':
         'disabilitare per non visualizzare gli slider\n'
-        	+ ' per inserire valori numerici',
+            + ' per inserire valori numerici',
     'check to enable\ninput sliders for\nentry fields':
         'abilitare per visualizzare gli slider\n'
-        	+ ' per inserire valori numerici',
+            + ' per inserire valori numerici',
     'Clicking sound':
         'Click di aggancio dei blocchi',
     'uncheck to turn\nblock clicking\nsound off':
