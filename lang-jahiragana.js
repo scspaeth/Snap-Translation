@@ -1,6 +1,6 @@
 /*
 
-    lang-ja.js
+    lang-jahiragana.js
 
 	Japanese hiragana translation for SNAP!
 
@@ -30,6 +30,8 @@
 SnapTranslator.dict.jahiragana = {
 
 /*
+	These are superfluous in a fully Unicode compliant system but may keep.
+	
     Sonderzeichen:
 
     Ä, ä   \u00c4, \u00e4
@@ -90,17 +92,17 @@ SnapTranslator.dict.jahiragana = {
 
     // names:
     'Sprite':
-        'Sprite',
+        'スプライト',
     'Stage':
         'ステージ（ズクリプト：０）',
 
     // rotation styles:
     'don\'t rotate':
-        'nicht drehbar',
+        'かいてんしない',
     'can rotate':
-        'frei drehbar',
+        'かいてんする',
     'only face left/right':
-        'kann sich nur nach\nlinks/rechts drehen',
+        'さゆにほんてんするだけ',
 
     // new Sprite button:
     'add a new Sprite':
@@ -134,15 +136,15 @@ SnapTranslator.dict.jahiragana = {
     'go to %dst':
         'へいく %dst',
     'glide %n secs to x: %n y: %n':
-        'gleite %n Sek. zu x: %n y: %n ',
+        '%n ぴょうでxざひょうを %n に、yざひょうを %n にかえる',
     'change x by %n':
-        'ändere x um %n ',
+        'xざひょうを %n ずつかえる',
     'set x to %n':
-        'setze x auf %n',
+        'xざひょうを %n にする',
     'change y by %n':
-        'ändere y um %n',
+        'yざひょうを %n ずつかえる',
     'set y to %n':
-        'setze y auf %n',
+        'yざひょうを %n にする',
     'if on edge, bounce':
         'もしはしについたら、はねかえる',
     'x position':
@@ -154,7 +156,7 @@ SnapTranslator.dict.jahiragana = {
 
     // looks:
     'switch to costume %cst':
-        'コスチュームを %cst にする', // TODO: Investigate the changing orders of labels and parameters
+        'コスチュームを %cst にする', // TODO: verify orders of labels/ parameters
     'next costume':
         'つぎのコスチュームにする',
     'costume #':
@@ -215,19 +217,19 @@ SnapTranslator.dict.jahiragana = {
     'pen up':
         'ペンをおげる',
     'set pen color to %clr':
-        'ペンのいろを・にする %clr', // TODO: rearrange order
+        'ペンのいろを %clr にする', // TODO: rearrange order
     'change pen color by %n':
-        'ペンのいろを・ずつかえる %n', // TODO: rearrange order
+        'ペンのいろを %n ずつかえる', // TODO: rearrange order
     'set pen color to %n':
-        'ペンのいろを・にする %n', // TODO: rearrange order
+        'ペンのいろを %n にする', // TODO: rearrange order
     'change pen shade by %n':
-        'ändere Farbstärke um %n',
+        'ペンのこさを %n ずつかえる',
     'set pen shade to %n':
-        'setze Farbstärke auf %n',
+        'ペンのこさを %n にする',
     'change pen size by %n':
-        'ändere Stiftdicke um %n',
+        'ペンのふとさを %n ずつかえる',
     'set pen size to %n':
-        'setze Stiftdicke auf %n',
+        'ペンのふとさを %n にする',
     'stamp':
         'スタンプ',
 
@@ -247,23 +249,23 @@ SnapTranslator.dict.jahiragana = {
     'Message name':
         'Nachricht',
     'wait %n secs':
-        'warte %n Sek.',
+        '%n ぴょうまつ',
     'wait until %b':
-        'warte bis %b',
+        '%b までまつ',
     'forever %c':
         'ずっと %c',
     'repeat %n %c':
         ' %n かいくりかえす %c',
     'repeat until %b %c':
-        'wiederhole bis %b %c',
+        'もし %b なら、ずつと %c',
     'if %b %c':
-        'もし・なる %b %c', // TODO: order rearrangement?
+        'もし %b なる %c',
     'if %b %c else %c':
-        'もし・なる %b %c でなければ %c',
+        'もし %b なる %c でなければ %c',
     'report %s':
         'berichte %s',
     'stop block':
-        'stoppe diesen Block',
+        'stop this Block',
     'stop script':
         'スクリプトをとめる',
     'stop all %stop':
@@ -303,7 +305,7 @@ SnapTranslator.dict.jahiragana = {
     'key %key pressed?':
         ' %key キーがおされた',
     'distance to %dst':
-        '・までのきょり %dst', // TODO: Change order of text and parameter
+        ' %dst までのきょり',
     'reset timer':
         'タイマーをリセット',
     'timer':
@@ -324,21 +326,21 @@ SnapTranslator.dict.jahiragana = {
     'round %n':
         '%n のまるめる',
     '%fun of %n':
-        '%fun von %n',
+        '%fun von %n', // TODO: Rewrite label texts to accomodate parameters
     'pick random %n to %n':
-        '( )から %n ( )から( )までのらんすう %n ( )までのらんすう', // TODO: delExtr 
+        '%n から %n までのらんすう',
     '%b and %b':
         '%b かつ %b',
     '%b or %b':
         '%b または %b',
     'not %b':
-        '< >ではない %b ではない', // TODO: Check delExt label & parameter
+        '%b ではない', // TODO: Check delExt label & parameter
     'true':
         'true', // TODO: apply standard naming
     'false':
         'false',
     'join %words':
-        '[ ]と[ ]をつなぐ %words をつなぐ', // TODO: revise text to conform to expanding number of inputSlots
+        '[ ]と[ ] %words をつなぐ', // TODO: revise text to conform to expanding number of inputSlots
     'hello':
         'ハロー',
     'world':
@@ -366,13 +368,13 @@ SnapTranslator.dict.jahiragana = {
         'へんすうをさくじょ', // TODO: Check this translation
 
     'set %var to %s':
-        ' %var を[ ]にする %s', // TODO: reorder parameter and second label
+        ' %var を %s [ ]にする', // TODO: check order parameter and second label
     'change %var by %n':
-        ' %var を()ずつかえる %n', // TODO: reorder parameter and second label
+        ' %var を %n ()ずつかえる', // TODO: check order parameter and second label
     'show variable %var':
-        'zeige Variable %var',
+        'ステージうえにひょうじ %var', // TODO: check to see whether placement ok
     'hide variable %var':
-        'verstecke Variable %var',
+        'ステージからビューワをけす %var',
     'script variables %scriptVars':
         'スクリプトのへんすう %scriptVars',
 
@@ -380,25 +382,25 @@ SnapTranslator.dict.jahiragana = {
     'list %exp':
         'リスト %exp',
     '%s in front of %l':
-        '%s am Anfang von %l',
+        '%s am Anfang von %l ',
     'item %idx of %l':
-        'Element %idx von %l',
+        '%idx の %l ばんめ',
     'all but first of %l':
-        'alles außer dem ersten von %l',
+        'alles außer dem ersten von %l ',
     'length of %l':
-        'Länge von %l',
+        '%l のながさ',
     '%l contains %s':
-        '%l enthält %s',
+        '%l に %s がふくまれる',
     'thing':
-        'etwas',
+        'なにか？',
     'add %s to %l':
-        'füge %s zu %l hinzu',
+        '%s を %l についか',
     'delete %ida of %l':
-        'entferne %ida aus %l',
+        '%ida ばんめを %l からさくじょ',
     'insert %s at %idx of %l':
         'füge %s als %idx in %l ein',
     'replace item %idx of %l with %s':
-        'ersetze Element %idx in %l durch %s',
+        'ersetze Element %idx in %l durch %s ',
 
     // other
     'Make a block':
@@ -419,8 +421,8 @@ SnapTranslator.dict.jahiragana = {
     'Switch to dev mode':
         'ハッカーモードに切り替える', // TODO: Check translation 
     'enable Morphic\ncontext menus\nand inspectors,\nnot user-friendly!':
-        'モーフィック\nコンテキストメニューを有効に\n' +
-        'しないユーザーフレンドリー', // TODO: Check revise translation improve line breaks
+        'モーフィック\nコンテキストメニューを有効に\n'
+        + 'しないユーザーフレンドリー', // TODO: Check revise translation improve line breaks
 
     // projectMenu
     'Project Notes...':
@@ -721,12 +723,12 @@ SnapTranslator.dict.jahiragana = {
     'mouse-pointer':
         'マウスのポインター',
     'edge':
-        'Kante',
+        'はし', // TODO: hashi as in もし端に着いたら、跳ね返る
     'pen trails':
         'ペんtrails', // TODO: Revise translation
 
     'Turtle':
-        'Richtungszeiger',
+        'ポインター', // TODO: What does Richtungszeiger mean?
 
     'ghost':
         'ゆうれい',
