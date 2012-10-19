@@ -44,7 +44,7 @@ SnapTranslator.dict.jahiragana = {
     'language_name':
         'にほごひらがな',
     'language_translator':
-        'K Abe',
+        'K Abe, SC Spaeth',
     'translator_e-mail':
         'http://twitter.com/abee2',
     'last_changed':
@@ -334,7 +334,7 @@ SnapTranslator.dict.jahiragana = {
     '%b or %b':
         '%b または %b',
     'not %b':
-        '%b ではない', // TODO: Check delExt label & parameter
+        '%b ではない',
     'true':
         'true', // TODO: apply standard naming
     'false':
@@ -346,11 +346,11 @@ SnapTranslator.dict.jahiragana = {
     'world':
         'ワールド',
     'letter %n of %s':
-        'Zeichen %n von %s',
+        'Zeichen %n von %s', // TODO: Scratch parameter order not same
     'length of %s':
-        ' %s のながさ', // TODO: check the label and parameter order
+        '%s のながさ',
     'unicode of %s':
-        ' %s のUnicodeばんご', // TODO: check the label and parameter order
+        '%s のUnicodeばんご', // TODO: check the label and parameter order
     'unicode %n as letter':
         'Unicode %n als Buchstabe',
     'is %s a %typ ?':
@@ -368,13 +368,13 @@ SnapTranslator.dict.jahiragana = {
         'へんすうをさくじょ', // TODO: Check this translation
 
     'set %var to %s':
-        ' %var を %s [ ]にする', // TODO: check order parameter and second label
+        '%var を %s にする',
     'change %var by %n':
-        ' %var を %n ()ずつかえる', // TODO: check order parameter and second label
+        '%var を %n ずつかえる',
     'show variable %var':
-        'ステージうえにひょうじ %var', // TODO: check to see whether placement ok
+        'ステージうえにひょうじ %var', // TODO: check translation
     'hide variable %var':
-        'ステージからビューワをけす %var',
+        'ステージからビューワをけす %var', // TODO: check translation
     'script variables %scriptVars':
         'スクリプトのへんすう %scriptVars',
 
@@ -382,11 +382,11 @@ SnapTranslator.dict.jahiragana = {
     'list %exp':
         'リスト %exp',
     '%s in front of %l':
-        '%s am Anfang von %l ',
+        '%s am Anfang von %l ', // TODO: adjust for parameter order
     'item %idx of %l':
-        '%idx の %l ばんめ',
+        '%idx の %l ばんめ', // TODO: adjust for parameter order
     'all but first of %l':
-        'alles außer dem ersten von %l ',
+        'alles außer dem ersten von %l ', // TODO: Not in Scratch
     'length of %l':
         '%l のながさ',
     '%l contains %s':
@@ -400,7 +400,7 @@ SnapTranslator.dict.jahiragana = {
     'insert %s at %idx of %l':
         '%s の %idx ばんめに %l をそうにゅうする',
     'replace item %idx of %l with %s':
-        'ersetze Element %idx in %l durch %s ', // TODO: Requires revision to accomodate parameter order
+        'ersetze Element %idx in %l durch %s ', // TODO: adjust for parameter order
 
     // other
     'Make a block':
