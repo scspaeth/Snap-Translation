@@ -48,13 +48,13 @@ SnapTranslator.dict.jahiragana = {
     'translator_e-mail':
         'http://twitter.com/abee2',
     'last_changed':
-        '2012-10-18',
+        '2012-10-19',
 
     // control bar:
     'untitled':
         'Unbenannt',
     'development mode':
-        'Hackermodus',
+        'ハッカーモード',
 
     // categories:
     'Motion':
@@ -80,7 +80,7 @@ SnapTranslator.dict.jahiragana = {
 
     // editor:
     'draggable':
-        'greifbar',
+        'ドラッグかのう',
 
     // tabs:
     'Scripts':
@@ -247,7 +247,7 @@ SnapTranslator.dict.jahiragana = {
     'broadcast %msg and wait':
         ' %msg をおくってまつ',
     'Message name':
-        'Nachricht',
+        'メッセージのなまえ:',
     'wait %n secs':
         '%n ぴょうまつ',
     'wait until %b':
@@ -281,7 +281,7 @@ SnapTranslator.dict.jahiragana = {
     'call %cmdRing w/continuation':
         'rufe %cmdRing mit Continuation auf',
     'warp %c':
-        'Warp %c',
+        'ターボスピード %c',
 
     // sensing:
     'touching %col ?':
@@ -398,9 +398,9 @@ SnapTranslator.dict.jahiragana = {
     'delete %ida of %l':
         '%ida ばんめを %l からさくじょ',
     'insert %s at %idx of %l':
-        'füge %s als %idx in %l ein',
+        '%s の %idx ばんめに %l をそうにゅうする',
     'replace item %idx of %l with %s':
-        'ersetze Element %idx in %l durch %s ',
+        'ersetze Element %idx in %l durch %s ', // TODO: Requires revision to accomodate parameter order
 
     // other
     'Make a block':
@@ -436,19 +436,19 @@ SnapTranslator.dict.jahiragana = {
     'Save As...':
         'なまえをつけてほぞん...',
     'Import...':
-        'Import...',
+        'よみこみ...',
     'file menu import hint':
-        'lädt ein exportプロジェクト,\neine Bibliothek mit'
+        'lädt ein プロジェクト,\neine Bibliothek mit'
             + 'ブラーク\n'
             + 'ein Kostüm oder einen Klang',
     'Export project as plain text ...':
-        '通常のテキストとして、プロジェクトをエクスポート...',
+        '通常のテキストとして、プロジェクトをかきだす...',
     'Export project...':
-        'プロジェクトをエクスポート...',
+        'プロジェクトをかきだす...',
     'show project data as XML\nin a new browser window':
         'zeigt das Projekt als XML\nin einem neuen Browserfenster an',
     'Export blocks ...':
-        'ブラークをエクスポート...',
+        'ブラークをかきだす...',
     'show global custom block definitions as XML\nin a new browser window':
         'zeigt globale Benutzerblockdefinitionen\nals XML im Browser an',
 
@@ -588,7 +588,7 @@ SnapTranslator.dict.jahiragana = {
     'Costume Editor':
         'Kostümeditor',
     'click or drag crosshairs to move the rotation center':
-        'Fadenkreuz anklicken oder bewegen um den Drehpunkt zu setzen',
+        '回転の中心を設定するための十字の位置',
 
     // project notes
     'Project Notes':
@@ -723,7 +723,7 @@ SnapTranslator.dict.jahiragana = {
     'mouse-pointer':
         'マウスのポインター',
     'edge':
-        'はし', // TODO: hashi as in もし端に着いたら、跳ね返る
+        'はし(端)', // TODO: hashi as in もし端に着いたら、跳ね返る
     'pen trails':
         'ペんtrails', // TODO: Revise translation
 
