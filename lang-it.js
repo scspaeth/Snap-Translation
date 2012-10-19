@@ -171,7 +171,7 @@ SnapTranslator.dict.it = {
 
 /*
     Special characters: (see <http://0xcc.net/jsescape/>)
-
+	The following are from Deutsch should we ask for similar set?
     Ä, ä   \u00c4, \u00e4
     Ö, ö   \u00d6, \u00f6
     Ü, ü   \u00dc, \u00fc
@@ -186,7 +186,7 @@ SnapTranslator.dict.it = {
     'translator_e-mail':
         's_federici@yahoo.com', // optional
     'last_changed':
-        '2012-10-18', // this, too, will appear in the Translators tab
+        '2012-10-19', // this, too, will appear in the Translators tab
 
     // GUI
     // control bar:
