@@ -27,6 +27,8 @@
 
 /*global SnapTranslator*/
 
+/*jslint sloppy: true, browser: true, indent: 4, maxlen: 78 */ // Directive
+
 SnapTranslator.dict.jahiragana = {
 
 /*
@@ -46,7 +48,7 @@ SnapTranslator.dict.jahiragana = {
     'language_translator':
         'K Abe, SC Spaeth',
     'translator_e-mail':
-        'http://twitter.com/abee2',
+        '',
     'last_changed':
         '2012-10-19',
 
@@ -122,11 +124,11 @@ SnapTranslator.dict.jahiragana = {
             + 'vorhanden',
 
     'move %n steps':
-        ' %n ぽうごかす',
+        '%n ぽうごかす',
     'turn %clockwise %n degrees':
-        ' %clockwise %n どまわす',
+        '%clockwise %n どまわす',
     'turn %counterclockwise %n degrees':
-        ' %counterclockwise %n どまわす',
+        '%counterclockwise %n どまわす',
     'point in direction %dir':
         'どねむける %dir',
     'point towards %dst':
@@ -162,25 +164,25 @@ SnapTranslator.dict.jahiragana = {
     'costume #':
         'コスチュームのばんごう',
     'say %s for %n secs':
-        ' %s と %n びょういう',
+        '%s と %n びょういう',
     'say %s':
-        ' %s という', // Changed order of label and parameter
+        '%s という', // Changed order of label and parameterスペース　テスート
     'think %s for %n secs':
-        ' %s と %n びょうかんがえる',
+        '%s と %n びょうかんがえる',
     'think %s':
-        ' %s とかんがえる', // TODO: Find out how to handle empty labels
+        '%s とかんがえる', // TODO: Find out how to handle empty labels
     'Hello!':
         'ハロー!',
     'Hmm...':
         'うーん...',
     'change %eff effect by %n':
-        ' %eff のこうかを %n ずつかえる', // Done. This test worked.
+        '%eff のこうかを %n ずつかえる', // Done. This test worked.
     'set %eff effect to %n':
-        ' %eff のこうかを %n にする',
+        '%eff のこうかを %n にする',
     'clear graphic effects':
         'がぞうこうかをなくす',
     'change size by %n':
-        'おおきさを %n ずつかえる', // Note: very subtle error here space != スペース
+        'おおきさを %n ずつかえる', // Note: very subtle error here space !=「　」スペース
     'set size to %n %':
         'おおきさを %n % にする', // Note: %にする causes a failure; % にする corrects
     'size':
@@ -192,7 +194,7 @@ SnapTranslator.dict.jahiragana = {
     'go to front':
         'まえねだす',
     'go back %n layers':
-        ' %n ぼんめにいどう',
+        '%n ぼんめにいどう',
 
     'development mode \ndebugging primitives:':
         'ハッカーモード \nDebugging-ブローク', // TODO: Revise translation
@@ -203,7 +205,7 @@ SnapTranslator.dict.jahiragana = {
 
     // sound:
     'play sound %snd':
-        'のおとをなるす %snd', // TODO: order revision
+        '%snd のおとをなるす',
     'play sound %snd until done':
         'おわるまで %snd のおとをならす',
     'stop all sounds':
@@ -217,11 +219,11 @@ SnapTranslator.dict.jahiragana = {
     'pen up':
         'ペンをおげる',
     'set pen color to %clr':
-        'ペンのいろを %clr にする', // TODO: rearrange order
+        'ペンのいろを %clr にする',
     'change pen color by %n':
-        'ペンのいろを %n ずつかえる', // TODO: rearrange order
+        'ペンのいろを %n ずつかえる',
     'set pen color to %n':
-        'ペンのいろを %n にする', // TODO: rearrange order
+        'ペンのいろを %n にする',
     'change pen shade by %n':
         'ペンのこさを %n ずつかえる',
     'set pen shade to %n':
@@ -235,17 +237,17 @@ SnapTranslator.dict.jahiragana = {
 
     // control:
     'when %greenflag clicked':
-        ' %greenflag がクリックされたとき',
+        '%greenflag がクリックされたとき',
     'when %key key pressed':
-        ' %key キーがおされたとき',
+        '%key キーがおされたとき',
     'when I am clicked':
         'Sprite がクリックされたとき', // TODO: Self-reference adjustment?
     'when I receive %msg':
-        ' %msg をうけとったとき',
+        '%msg をうけとったとき',
     'broadcast %msg':
-        ' %msg をおくる',
+        '%msg をおくる',
     'broadcast %msg and wait':
-        ' %msg をおくってまつ',
+        '%msg をおくってまつ',
     'Message name':
         'メッセージのなまえ:',
     'wait %n secs':
@@ -255,7 +257,7 @@ SnapTranslator.dict.jahiragana = {
     'forever %c':
         'ずっと %c',
     'repeat %n %c':
-        ' %n かいくりかえす %c',
+        '%n かいくりかえす %c',
     'repeat until %b %c':
         'もし %b なら、ずつと %c',
     'if %b %c':
@@ -285,13 +287,13 @@ SnapTranslator.dict.jahiragana = {
 
     // sensing:
     'touching %col ?':
-        ' %col にふれた',
+        '%col にふれた',
     'touching %clr ?':
-        ' %clr いろにふれた',
+        '%clr いろにふれた',
     'color %clr is touching %clr ?':
-        ' %clr いろが %clr いろにふれた',
+        '%clr いろが %clr いろにふれた',
     'ask %s and wait':
-        ' %s ときいてまつ',
+        '%s ときいてまつ',
     'what\'s your name?':
         'あなたのなまえはなにですか？',
     'answer':
@@ -303,9 +305,9 @@ SnapTranslator.dict.jahiragana = {
     'mouse down?':
         'マウスがおされた',
     'key %key pressed?':
-        ' %key キーがおされた',
+        '%key キーがおされた',
     'distance to %dst':
-        ' %dst までのきょり',
+        '%dst までのきょり',
     'reset timer':
         'タイマーをリセット',
     'timer':

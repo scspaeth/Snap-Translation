@@ -2,7 +2,7 @@
 
 	lang-it.js
 
-	Italiano (it) translation for SNAP!
+	German translation for SNAP!
 
 	written by Jens Mönig
 
@@ -163,7 +163,6 @@
     Enjoy!
     -Jens
 */
-/*jslint sloppy: true, browser: true, indent: 4, maxlen: 78 */ // Directive
 
 /*global SnapTranslator*/
 
@@ -171,7 +170,7 @@ SnapTranslator.dict.it = {
 
 /*
     Special characters: (see <http://0xcc.net/jsescape/>)
-	The following are from Deutsch should we ask for similar set?
+
     Ä, ä   \u00c4, \u00e4
     Ö, ö   \u00d6, \u00f6
     Ü, ü   \u00dc, \u00fc
@@ -186,14 +185,14 @@ SnapTranslator.dict.it = {
     'translator_e-mail':
         's_federici@yahoo.com', // optional
     'last_changed':
-        '2012-10-19', // this, too, will appear in the Translators tab
+        '2012-10-16', // this, too, will appear in the Translators tab
 
     // GUI
     // control bar:
     'untitled':
         'SenzaTitolo',
     'development mode':
-        'modalità sviluppo',
+        'modalit\u00E0 sviluppo',
 
     // categories:
     'Motion':
@@ -239,7 +238,7 @@ SnapTranslator.dict.it = {
     'don\'t rotate':
         'non ruotare',
     'can rotate':
-        'può ruotare',
+        'pu\u00F2 ruotare',
     'only face left/right':
         'voltati solo a destra/sinistra',
 
@@ -309,11 +308,11 @@ SnapTranslator.dict.it = {
     'change x by %n':
         'cambia x di %n',
     'set x to %n':
-        'vai dove x è %n',
+        'vai dove x \u00E8 %n',
     'change y by %n':
         'cambia y di %n',
     'set y to %n':
-        'vai dove y è %n',
+        'vai dove y \u00E8 %n',
     'if on edge, bounce':
         'rimbalza quando tocchi il bordo',
     'x position':
@@ -364,7 +363,7 @@ SnapTranslator.dict.it = {
         'vai indietro di %n livelli',
 
     'development mode \ndebugging primitives:':
-        'modalità sviluppo\nComandi di debug',
+        'modalit\u00E0 sviluppo\nComandi di debug',
     'console log %mult%s':
         'console log: %mult%s',
     'alert %mult%s':
@@ -382,7 +381,7 @@ SnapTranslator.dict.it = {
     'clear':
         'pulisci',
     'pen down':
-        'penna giù',
+        'penna gi\u00F9',
     'pen up':
         'penna su',
     'set pen color to %clr':
@@ -392,9 +391,9 @@ SnapTranslator.dict.it = {
     'set pen color to %n':
         'usa penna di colore %n',
     'change pen shade by %n':
-        'cambia luminosità penna di %n',
+        'cambia luminosit\u00E0 penna di %n',
     'set pen shade to %n':
-        'porta luminosità penna a %n',
+        'porta luminosit\u00E0 penna a %n',
     'change pen size by %n':
         'cambia dimensione penna di %n',
     'set pen size to %n':
@@ -440,17 +439,17 @@ SnapTranslator.dict.it = {
     'stop all %stop':
         'ferma tutto %stop',
     'run %cmdRing %inputs':
-        'esegui %cmdRing con argomenti %inputs',
+        'esegui %cmdRing %inputs',
     'launch %cmdRing %inputs':
-        'lancia %cmdRing con argomenti %inputs',
+        'lancia %cmdRing %inputs',
     'call %repRing %inputs':
-        'chiama %repRing con argomenti %inputs',
+        'chiama %repRing %inputs',
     'run %cmdRing w/continuation':
         'esegui %cmdRing con continuazione',
     'call %cmdRing w/continuation':
         'chiama %cmdRing con continuazione',
     'warp %c':
-        'esegui in modalità turbo %c',
+        'esegui in modalit\u00E0 turbo %c',
 
     // sensing:
     'touching %col ?':
@@ -523,7 +522,7 @@ SnapTranslator.dict.it = {
     'unicode %n as letter':
         'unicode %n come lettera',
     'is %s a %typ ?':
-        '%s è di tipo %typ',
+        '%s \u00E8 di tipo %typ',
 
     'type of %s':
         'tipo di %s',
@@ -584,15 +583,13 @@ SnapTranslator.dict.it = {
     'Download source':
         'Scarica il codice sorgente',
     'Switch back to user mode':
-        'Torna alla modalità utente',
+        'Torna alla modalit\u00E0 utente',
     'disable deep-Morphic\ncontext menus\nand show user-friendly ones':
-        'disabilita i menu contestuali\n'
-            + 'di Morphic e mostra quelli user-friendly',
+        'disabilita i menu contestuali\ndi Morphic e mostra quelli user-friendly',
     'Switch to dev mode':
-        'Passa alla modalità sviluppo',
+        'Passa alla modalit\u00E0 sviluppo',
     'enable Morphic\ncontext menus\nand inspectors,\nnot user-friendly!':
-        'Abilita i menu contestuali\n'
-            + 'di Morphic e l\'inspector,\n non user-friendly',
+        'Abilita i menu contestuali\ndi Morphic e l\'inspector,\n non user-friendly',
 
     // project menu
     'Project Notes...':
@@ -616,13 +613,11 @@ SnapTranslator.dict.it = {
     'Export project...':
         'Esporta il progetto...',
     'show project data as XML\nin a new browser window':
-        'mostra i dati del progetto in formato XML\n'
-            + 'in una nuova finestra del browser',
+        'mostra i dati del progetto in formato XML\nin una nuova finestra del browser',
     'Export blocks ...':
         'Esporta blocchi...',
     'show global custom block definitions as XML\nin a new browser window':
-        'mostra in formato XML le definizione dei nuovi blocchi\n'
-            + 'in una nuova finestra del browser',
+        'mostra in formato XML le definizione dei nuovi blocchi\nin una nuova finestra del browser',
 
     // settings menu
     'Language...':
@@ -630,50 +625,39 @@ SnapTranslator.dict.it = {
     'Blurred shadows':
         'Ombreggiature attenuate',
     'uncheck to use solid drop\nshadows and highlights':
-        'disabilitare per visualizzare ombreggiature\n'
-            + 'ed evidenziature solide',
+        'disabilitare per visualizzare ombreggiature\ned evidenziature solide',
     'check to use blurred drop\nshadows and highlights':
-        'abilitare per visualizzare ombreggiature\n'
-            + 'ed evidenziature attenuate',
+        'abilitare per visualizzare ombreggiature\ned evidenziature attenuate',
     'Zebra coloring':
         'Colorazione alternata',
     'check to enable alternating\ncolors for nested blocks':
         'abilitare per visualizzare a colori\nalternati i blocchi annidati',
     'uncheck to disable alternating\ncolors for nested block':
-        'disabilitare per non visualizzare a colori\n'
-            + 'alternati i blocchi annidati',
+        'disabilitare per non visualizzare a colori\nalternati i blocchi annidati',
     'Prefer empty slot drops':
         'Favorisci l\'aggancio a slot vuoti',
     'settings menu prefer empty slots hint':
-        'abilitare per favorire l\'inserimento in slot vuoti\n'
-            + 'quando si trascinano e rilasciano dei reporter',
+        'abilitare per favorire l\'inserimento in slot vuoti\nquando si trascinano e rilasciano dei reporter',
     'uncheck to allow dropped\nreporters to kick out others':
-        'disabilitare per permettere agli slot di espellere\n'
-            + 'i reporter inclusi al loro interno',
+        'disabilitare per permettere agli slot di espellere\ni reporter inclusi al loro interno',
     'Long form input dialog':
         'Usa finestra degli input estesa',
     'check to always show slot\ntypes in the input dialog':
-        'abilitare per mostrare sempre i tipi degli slot\n'
-            + 'nella finestra di creazione degli input',
+        'abilitare per mostrare sempre i tipi degli slot\nnella finestra di creazione degli input',
     'uncheck to use the input\ndialog in short form':
-        'disabilitare per non mostrare automaticamente i tipi degli slot\n'
-            + 'nella finestra di creazione degli input',
+        'disabilitare per non mostrare automaticamente i tipi degli slot\nnella finestra di creazione degli input',
     'Virtual keyboard':
         'Tastiera virtuale',
     'uncheck to disable\nvirtual keyboard support\nfor mobile devices':
-        'disabilitare per non usare il supporto\n'
-            + 'della tastiera virtuale con i dispositivi mobili',
+        'disabilitare per non usare il supporto\ndella tastiera virtuale con i dispositivi mobili',
     'check to enable\nvirtual keyboard support\nfor mobile devices':
-        'abilitare per usare il supporto della\n'
-            + 'tastiera virtuale con i dispositivi mobili',
+        'abilitare per usare il supporto della\ntastiera virtuale con i dispositivi mobili',
     'Input sliders':
         'Usa slider per gli input',
     'uncheck to disable\ninput sliders for\nentry fields':
-        'disabilitare per non visualizzare gli slider\n'
-            + ' per inserire valori numerici',
+        'disabilitare per non visualizzare gli slider\n per inserire valori numerici',
     'check to enable\ninput sliders for\nentry fields':
-        'abilitare per visualizzare gli slider\n'
-            + ' per inserire valori numerici',
+        'abilitare per visualizzare gli slider\n per inserire valori numerici',
     'Clicking sound':
         'Click di aggancio dei blocchi',
     'uncheck to turn\nblock clicking\nsound off':
@@ -714,6 +698,8 @@ SnapTranslator.dict.it = {
         'apri una nuova finestra\ncon un\'immagine di questo script',
     'ringify':
         'inserisci in un anello',
+    'unringify':
+        'estrai dall\'anello',
 
     // custom blocks:
     'delete block definition...':
@@ -742,6 +728,8 @@ SnapTranslator.dict.it = {
         'rinomina',
     'export':
         'esporta',
+    'rename costume':
+        'rinomina costume',
 
     // sounds
     'Play sound':
@@ -752,6 +740,8 @@ SnapTranslator.dict.it = {
         'Stop',
     'Play':
         'Play',
+    'rename sound':
+        'rinomina suono',
 
     // dialogs
     // buttons
@@ -830,8 +820,8 @@ SnapTranslator.dict.it = {
     'Delete Custom Block':
         'Cancella Blocco',
     'block deletion dialog text':
-        'Sei sicuro di voler cancellare questo blocco\n'
-            + 'e tutte le sue occorrenze?',
+        'Sei sicuro di voler cancellare questo blocco\n' +
+            'e tutte le sue occorrenze?',
 
     // input dialog
     'Create input name':
@@ -869,7 +859,7 @@ SnapTranslator.dict.it = {
     'Default Value:':
         'Valore predefinito:',
     'Multiple inputs (value is list of inputs)':
-        'Molti valori (il valore è una lista di argomenti)',
+        'Molti valori (il valore \u00E8 una lista di argomenti)',
     'Upvar - make internal variable visible to caller':
         'Rendi il parametro visibile all\'esterno',
 
@@ -919,7 +909,7 @@ SnapTranslator.dict.it = {
     'add comment here...':
         'aggiunto un commento in questo punto...',
 
-    // drop downs
+    // drow downs
     // directions
     '(90) right':
         '(90) destra',
@@ -927,8 +917,8 @@ SnapTranslator.dict.it = {
         '(-90) sinistra',
     '(0) up':
         '(0) su',
-    '(180) down':
-        '(180) giù',
+    '(180) right':
+        '(180) gi\u00F9',
 
     // collision detection
     'mouse-pointer':
@@ -952,7 +942,7 @@ SnapTranslator.dict.it = {
     'up arrow':
         'freccia su',
     'down arrow':
-        'freccia giù',
+        'freccia gi\u00F9',
     'right arrow':
         'freccia destra',
     'left arrow':
