@@ -733,6 +733,8 @@ SnapTranslator.dict.de = {
         'Umbenennen',
     'export':
         'Exportieren',
+    'rename costume':
+        'Kost\u00fcm umbenennen',
 
     // sounds
     'Play sound':
@@ -743,6 +745,8 @@ SnapTranslator.dict.de = {
         'Halt',
     'Play':
         'Los',
+    'rename sound':
+        'Klang umbenennen',
 
     // dialogs
     // buttons
@@ -910,7 +914,7 @@ SnapTranslator.dict.de = {
     'add comment here...':
         'Anmerkung hier hinzuf\u00fcgen',
 
-    // drop downs
+    // drow downs
     // directions
     '(90) right':
         '(90) rechts',
@@ -918,7 +922,7 @@ SnapTranslator.dict.de = {
         '(-90) links',
     '(0) up':
         '(0) oben',
-    '(180) down':
+    '(180) right':
         '(180) unten',
 
     // collision detection
